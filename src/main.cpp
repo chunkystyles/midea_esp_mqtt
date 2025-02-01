@@ -3,9 +3,8 @@
 #include "mqtt.h"
 
 void setup() {
-  setup_hvac();
   mqtt_connect();
-  send_capabilities();
+  setup_hvac();
 }
 
 void loop() {
